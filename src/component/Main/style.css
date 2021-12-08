@@ -1,0 +1,57 @@
+main {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.input {
+    text-align: center;
+}
+.input input {
+    text-align: center;
+    padding: 6px 12px;
+}
+.masukan {
+    width: 60%;
+}
+.button {
+    background-color: lightblue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.button:hover {
+    background-color: blue;
+    color: #fff;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+article {
+    width: 300px;
+    padding: 12px;
+    margin: 6px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: justify;
+}
+article img {
+    width: 280px;
+}
+article h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+article button {
+    margin-top: 6px;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+article button:hover {
+    background-color: #fff;
+    color: #000;
+}
